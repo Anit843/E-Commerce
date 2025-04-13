@@ -1,0 +1,162 @@
+
+
+/* content-container start here */
+.content-container{
+    width: 1440px;
+    margin: auto;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.account{
+    height: 218px;
+    padding: 80px 0;
+}
+.account p{
+    font-size: 54px;
+    font-weight: 500;
+}
+.account-section{
+    width: 1120px;
+    display: flex;
+}
+.menu{
+    width: 262px;
+    height: 498px;
+    border-radius: 8px;
+    background-color: #F3F5F7;
+    padding: 40px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.frame{
+    width: 131px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+.frame img{
+    width: 82px;
+    height: 82px;
+}
+.frame > p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.frame-title{
+    width: 230px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.frame-title > a{
+    text-decoration: none;
+    width: 230px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    color: #6C7275;
+}
+.frame-title .active{
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.account-properties{
+    width: 851px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    display: block;
+    padding: 0px 72px;
+}
+.account-details{
+    width: 707px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.account-details > h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.name > label{
+    color: #6C7275;
+    font-size: 12px;
+    font-weight: 700;
+}
+.name > input{
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    width: 707px;
+    height: 40px;
+    padding-left: 16px;
+    outline: none;
+}
+.big-name{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.big-name > label{
+    color: #6C7275;
+    font-size: 12px;
+    font-weight: 700;
+}
+.big-name > p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #807E7E;
+}
+.big-name > input{
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    width: 707px;
+    height: 40px;
+    padding-left: 16px;
+}
+.account-password{
+    width: 707px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.account-password > h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.account-password > button{
+    width: 183px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #141718;
+    color: white;
+    cursor: pointer;
+}
+.error {
+    color: red;
+    font-size: 0.875em;
+}
+
+/* content-container end here */
+
+
+
+
+
+
+

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+         <!-- font awesome cdn link -->
+        <link
+        rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        />
+</head>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@160..700&display=swap");
+        *{
+            padding: 0%;
+            box-sizing: border-box;
+            margin: 0%;
+            font-family: "Readex Pro", sans-serif;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+        }
+        .main-container{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #adafb0a8;
+            transition: all .4s ease;
+        }
+    
+        .container{
+            width: 450px;
+            display: flex;
+            flex-direction: column;
+            gap: 37px;
+            padding: 1.5rem;
+            background-color: #e0e7ef;
+            border-radius: 10px;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+         
+         
+        }
+        .sign-in {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        .sign-in h2{
+            font-size: 40px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .fa-circle-xmark{
+            cursor: pointer;
+            color: rgb(248, 120, 94);
+            font-size: 33px;
+        }
+        .sign-in p{
+        font-weight: 400;
+        color: #6C7275;
+        }
+        .sign-in a{
+            font-weight: 500;
+            color: #460bbe;
+            text-decoration: none;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+        .content input{
+        height: 40px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #dddee0;
+        padding-bottom: 8px;
+        padding-left: 1rem;
+        padding-top: 5px;
+        font-size: 18px;
+        border-radius: 6px;
+        }
+        .check{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .check input{
+            width: 24px;
+            height: 24px;
+            border: 1px solid #dddee0;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .check p{
+            font-weight: 400;
+            color: #6C7275;
+        }
+        .content p{
+            font-weight: 600;
+        }
+        .option{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        button{
+            padding: 10px 40px;
+            font-size: 18px;
+            font-weight: 500;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(68, 15, 118);
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        @media screen and (max-width: 480px) {
+        .sign-in h2 {
+            font-size: 28px;
+        }
+        .sign-in p {
+            font-size: 12px;
+        }
+        .content input {
+            font-size: 14px;
+            padding: 8px;
+        }
+        button {
+            font-size: 14px;
+            padding: 8px 20px;
+        }
+    }
+       
+    </style>
+<body>
+    <div class="main-container">
+        <div class="container">
+
+
+         <div class="sign-in">
+            <h2>Sign In <a href="index.html"><i onclick="removecontainer()" class="fa-regular fa-circle-xmark"></i></a></h2>
+            <p>Don’t have an accout yet? <a href="">Sign Up</a></p>
+         </div>
+         <form id="signInForm" onsubmit="return validateForm()">
+         <div class="content">
+            <input type="text" id="userName" name="userName" placeholder="Your username or email address" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <div class="option">
+            <div class="check">
+                <input type="checkbox" id="rememberMe" name="rememberMe">
+                <p>Remember me</p>
+            </div>
+            <p>Forgot password?</p>
+        </div>
+         </div>
+         <button type="submit">Sign In</button>
+        </form>
+        </div>
+    </div>
+    <script>
+        // JavaScript validation function
+        function validateForm() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+            // Check if the username is a valid email
+            if (!emailPattern.test(username)) {
+                alert("Please enter a valid email address.");
+                return false;
+            }
+             // Check if password is at least 6 characters long
+             if (password.length < 6) {
+                alert("Password must be at least 6 characters long.");
+                return false;
+            }
+
+            // If validation passes, allow form submission
+            return true;
+        }
+
+        // Close the container function
+        function removecontainer() {
+            document.querySelector('.main-container').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

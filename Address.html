@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orders</title>
+
+  <!-- custom css link -->
+   <link rel="stylesheet" href="style.css">
+
+   <!-- custom css link -->
+    <link rel="stylesheet" href="Address.css">
+
+    <!-- custom css link -->
+     <link rel="stylesheet" href="profile.css">
+
+   <!-- custom fontawesome link -->
+   <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+ />
+</head>
+<style>
+       /* address container start here */
+       .address-container{
+    width: 851px;
+    padding: 0px 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.address-container h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.address{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.billing-address{
+    border: 1px solid #6C7275;
+    height: 140px;
+    width: 342px;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.shipping-address{
+    border: 1px solid #6C7275;
+    height: 140px;
+    width: 342px;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.title p{
+   font-size: 1rem;
+   font-weight: 600;
+   color: #6C7275;
+   display: flex;
+   align-items: center;
+   gap: 4px;
+   cursor: pointer;
+}
+.address-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.address-content p{
+   font-size: 14px;
+   font-weight: 400;
+
+}
+/* address container ends here */
+</style>
+<body>
+    <!-- header section start here -->
+    <header>
+      <div class="logo-container">
+        <i class="fa-solid fa-bars"></i>
+        <a href="#" class="logo">3legant.</a>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="Product.html" >Products</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="icons">
+        <img src="./images/search 02.png" alt="" />
+        <a href="Profile.html"><img src="./images/Vector.png" alt="" /></a>
+
+        <div class="cart-container">
+         <a href="ShoppingCart.html"> <img src="./images/shopping bag.png" alt="" /></a>
+          <div class="cart-item-container">2</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- content-container start here -->
+    <div class="content-container">
+      <div class="account"><p>My Account</p></div>
+      <div class="account-section">
+          <div class="menu">
+              <div class="frame">
+                  <img src="./images/Avatar Edit.png" alt="">
+                  <p>Sofia Havertz</p>
+              </div>
+              <div class="frame-title">
+                <a href="Profile.html">Account</a>
+                <a href="Address.html" class="active">Address</a>
+                <a href="Orders.html">Orders</a>
+                  <a href="Wishlist.html">Wishlist</a>
+                  <a href="sign-in.html">Log Out</a>
+              </div>
+          </div>
+
+
+           <!-- address container start here -->
+
+           <div class="address-container">
+            <h2>Address</h2>
+            <div class="address">
+    
+            <div class="billing-address">
+              <div class="title">
+                <h2>Billing Address</h2>
+                <p><i class="fa-regular fa-pen-to-square"></i>Edit</p>
+              </div>
+              <div class="address-content">
+                <p>Sofia Havertz</p>
+                <p>(+1) 234 567 890</p>
+                <p>345 Long Island, NewYork, United States</p>
+              </div>
+            </div>
+    
+            <div class="shipping-address">
+                <div class="title">
+                  <h2>Shipping Address</h2>
+                  <p><i class="fa-regular fa-pen-to-square"></i>Edit</p>
+                </div>
+                <div class="address-content">
+                  <p>Sofia Havertz</p>
+                  <p>(+1) 234 567 890</p>
+                  <p>345 Long Island, NewYork, United States</p>
+                </div>
+              </div>
+          </div>
+           </div>
+    
+           <!-- address container ends here -->
+        
+      </div>
+      </div>
+
+    <!-- header section ends here -->
+      
+
+    
+                    <!--footer start here   -->
+                    <footer>
+                      <div class="footer-top-container">
+                        <div class="logo-container">
+                          <a href="#">3legant. </a>
+                          <div class="pipe"></div>
+                          <p>Gift & Decoration Store</p>
+                        </div>
+                
+                        <ul class="footer-links">
+                          <li> <a href="index.html">Home</a></li>
+                          <li> <a href="shop.html">Shop</a></li>
+                          <li> <a href="Product.html">Product</a></li>
+                          <li> <a href="Blog.html">Blogs</a></li>
+                          <li> <a href="Contact.html">Contact Us</a></li>
+                        </ul>
+                      </div>
+                      <div class="footer-bottom-container">
+                        <div class="copyright">
+                <p>
+                  Copyright © 2023 3legant. All rights reserved
+                </p>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                        </div>
+                        <div class="social-icons">
+                          <img src="./images/instagram.png" alt="">
+                          <img src="./images/facebook.png" alt="">
+                          <img src="./images/youtube.png" alt="">
+                
+                        </div>
+                      </div>
+                    </footer>
+                    <!--footer ends here   -->
+            
+</body>
+</html>

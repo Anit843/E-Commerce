@@ -1,0 +1,162 @@
+/* sign-up page start here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  body{
+     width: 100vw;
+     height: 100vh;
+  }
+
+  .container{
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(169, 168, 168, 0.726);
+     position: absolute;
+     top: -100vh;
+     transition: all .4s ease;
+    
+  }
+  .image-container{
+     width: 718px;
+     height: 800px;
+     position: relative;
+  }
+  .image-container p{
+     font-size: 24px;
+     font-weight: 500;
+     position: absolute;
+     top: 32px;
+     left: 315px;
+     color: white;
+  }
+  
+  .sign-in-container{
+     /* width: 500px; */
+     /* height: 580px; */
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+     border-radius: 10px;
+     padding: .7rem 1rem;
+     padding-bottom: .7rem;
+     background-color: black;
+     box-shadow: 0px 4px 6px 
+  
+  }
+  .title{
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+  }
+  .title span{
+     font-size: 40px;
+     font-weight: 500;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+  }
+  .fa-circle-xmark{
+    cursor: pointer;
+    color: rgb(248, 120, 94);
+    font-size: 33px;
+  }
+  .sub-title {
+     display: flex;
+     align-items: center;
+     gap: 5px;
+  }
+  .sub-title p{
+     font-size: 20px;
+     color: #edf4f8;
+  }
+  .sub-title a{
+     font-size: 20px;
+     color: #cdb4df;
+     text-decoration: none;
+  }
+  .form {
+     display: flex;
+     flex-direction: column;
+     gap: 1.5rem;
+  }
+  .form label {
+     font-size: 18px;
+     color: #fefefe;
+     padding-bottom: 1.5rem;
+     border-bottom: 1px solid#d7d8d9;
+     display: flex;
+     align-items: center;
+     /* justify-content: space-between; */
+     gap: 1rem;
+  }
+  .form label input{
+     width: 300px;
+     padding: .4rem .5rem;
+     border-radius: 6px;
+     border: none;
+     border: 1px solid #CBCBCB;
+     background-color: rgba(167, 169, 241, 0.062);
+     color: white;
+  }
+  .checkbox{
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+  }
+  .checkbox p{
+     font-size: 18px;
+     color: #fcfcfd;
+  }
+  .checkbox input{
+     width: 25px;
+     height: 25px;
+  }
+  
+  .errors{
+   display: flex;
+   flex-direction: column;
+  }
+  .form #button{
+     border: none;
+     padding: 10px 40px;
+     background-color: rgb(115, 63, 237);
+     color: white;
+     border-radius: 8px;
+     cursor: pointer;
+     font-size: 19px;
+     font-weight: 500;
+     
+  }
+  .form #button:hover{
+    background-color: rgb(172, 172, 242);
+  }
+  
+  .error{
+    display: none;
+    color: red;
+  }
+  
+  .error1{
+   display: none;
+   color: red;
+  }
+  
+  .error2{
+    display: none;
+    color: red;
+  }
+  
+  .error3{
+    display: none;
+    color: red;
+  }
+  
+  /* sign-up page ends here */
+  
