@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+
+       <!-- custom css link -->
+       <link rel="stylesheet" href="style.css">
+
+        <!-- custom link css -->
+        <link rel="stylesheet" href="profile.css">
+
+     
+
+        <!-- custom link fontawesome -->
+        <script src="https://kit.fontawesome.com/ca153099a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+          <!-- banner section start here -->
+      <section class="center" id="banner">
+        <img src="images/ticket-percent.png" alt="" loading="lazy" />
+        <p>30% off storewide — Limited time!</p>
+        <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+      </section>
+      <!-- banner section ends here -->
+  
+      <!-- header section start here -->
+      <header>
+        <div class="logo-container">
+          <i class="fa-solid fa-bars"></i>
+          <a href="#" class="logo">3legant.</a>
+        </div>
+  
+        <nav>
+          <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="Product.html">Products</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+  
+        <div class="icons">
+          <img src="./images/search 02.png" alt="" />
+         <a href="Profile.html"><img src="./images/Vector.png" alt="" /></a> 
+  
+          <div class="cart-container">
+          <a href="ShoppingCart.html">  <img src="./images/shopping bag.png" alt="" /></a>
+            <div class="cart-item-container">2</div>
+          </div>
+        </div>
+      </header>
+      <!-- header section ends here -->
+
+             <!-- content-container start here -->
+              <div class="content-container">
+                <div class="account"><p>My Account</p></div>
+                <div class="account-section">
+                    <div class="menu">
+                        <div class="frame">
+                            <img src="./images/Avatar Edit.png" alt="">
+                            <p>Sofia Havertz</p>
+                        </div>
+                        <div class="frame-title">
+                          <a href="Profile.html" class="active">Account</a>
+                          <a href="Address.html">Address</a>
+                          <a href="Orders.html">Orders</a>
+                            <a href="Wishlist.html">Wishlist</a>
+                            <a href="sign-in.html">Log Out</a>
+                        </div>
+                    </div>
+
+                    <div class="account-properties">
+                      <div class="account-details">
+                          <h1>Account Details</h1>
+                          <div class="name">
+                              <label for="Full-Name">FIRST NAME *</label>
+                              <input type="text" id="FirstName" placeholder="First name" required>
+                              <div class="error" id="firstNameError"></div>
+                          </div>
+              
+                          <div class="name">
+                              <label for="Last-Name">LAST NAME *</label>
+                              <input type="text" id="LastName" placeholder="Last name" required>
+                              <div class="error" id="lastNameError"></div>
+                          </div>
+              
+                          <div class="big-name">
+                              <label for="Display-Name">DISPLAY NAME *</label>
+                              <input type="text" id="DisplayName" placeholder="Display name" required>
+                              <p>This will be how your name will be displayed in the account section and in reviews</p>
+                              <div class="error" id="displayNameError"></div>
+                          </div>
+              
+                          <div class="name">
+                              <label for="Email">EMAIL *</label>
+                              <input type="email" id="Email" placeholder="Email" required>
+                              <div class="error" id="emailError"></div>
+                          </div>
+                      </div>
+              
+                      <div class="account-password">
+                          <h1>Password</h1>
+                          <div class="name">
+                              <label for="Old-Password">OLD PASSWORD</label>
+                              <input type="password" id="OldPassword" placeholder="Old password">
+                              <div class="error" id="oldPasswordError"></div>
+                          </div>
+              
+                          <div class="name">
+                              <label for="New-Password">NEW PASSWORD</label>
+                              <input type="password" id="NewPassword" placeholder="New password" required>
+                              <div class="error" id="newPasswordError"></div>
+                          </div>
+              
+                          <div class="name">
+                              <label for="Repeat-New-Password">REPEAT NEW PASSWORD</label>
+                              <input type="password" id="RepeatNewPassword" placeholder="Repeat new password" required>
+                              <div class="error" id="repeatNewPasswordError"></div>
+                          </div>
+              
+                          <button type="button" onclick="validateForm()">Save changes</button>
+                      </div>
+                  </div>
+
+
+
+
+
+
+
+                </div>
+              </div>
+              <!--content-container end here  -->
+
+               
+
+                    <!--footer start here   -->
+    <footer>
+        <div class="footer-top-container">
+          <div class="logo-container">
+            <a href="#">3legant. </a>
+            <div class="pipe"></div>
+            <p>Gift & Decoration Store</p>
+          </div>
+  
+          <ul class="footer-links">
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="shop.html">Shop</a></li>
+            <li> <a href="Product.html">Product</a></li>
+            <li> <a href="Blog.html">Blogs</a></li>
+            <li> <a href="Contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom-container">
+          <div class="copyright">
+  <p>
+    Copyright © 2023 3legant. All rights reserved
+  </p>
+  <div class="terms-container">
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Use</a>
+  </div>
+  
+          </div>
+          <div class="social-icons">
+            <img src="../images/instagram.png" alt="">
+            <img src="../images/facebook.png" alt="">
+            <img src="../images/youtube.png" alt="">
+  
+          </div>
+        </div>
+      </footer>
+  
+      <!--footer ends here   -->
+
+    
+ 
+      <script src="Profile.js"></script>
+  

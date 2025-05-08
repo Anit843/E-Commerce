@@ -1,0 +1,277 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* hero section start here */
+
+#blog-page{
+    height: 3032.92px;
+    width: 1440px;
+    margin: auto;
+    padding: 0px 160px;
+    padding-top: 16px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.header{
+    height: 282px;
+    width: 1121px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blog-content{
+    height: 2614.92px;
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.link-group{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.link-group p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #605F5F;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.link-group span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.header-content{
+    height: 202px;
+    width: 1121px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.header-content h2{
+    font-size: 12px;
+    font-weight: 700;
+}
+.header-content h1{
+    font-size: 54px;
+    font-weight: 500;
+    width: 834px;
+    line-height: 58px;
+}
+.frame-740{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.frame-740 p{
+    font-weight: 400;
+    color: #6C7275;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.blog-content .blog-card{
+    height: 840.92px;
+    width: 1119.99px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.blog-card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.blog-card-content p{
+    font-weight: 400;
+}
+.blog-card-content h2{
+    font-weight: 500;
+    font-size: 28px;
+}
+.blog-card2{
+    height: 965px;
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.blog-card2-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.blog-card2-content h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+.blog-card2-content p{
+    font-weight: 400;
+}
+
+.blog-card3{
+    height: 729px;
+    width: 1119.99px;
+    display: flex;
+}
+.blog-card3-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0px 1rem;
+}
+.blog-card3-content h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+.blog-card3-content p{
+    font-weight: 400;
+}
+
+
+/* article section start here */
+#article {
+    max-width: 1440px;
+    margin: auto;
+    padding: 80px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  #article .article-title {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+  }
+  
+  #article .article-title h2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  
+  #article .article-title a {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: black;
+    font-weight: 500;
+  }
+  
+  #article .card-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  #article .card-container .card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  #article .card-container .card .card-content p {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  #article .card-container .card .card-content span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #6C7275;
+  }
+  
+  /* article section ends here */
+
+
+  /* new-sletter start here */
+
+.new-sletter{
+    margin: auto;
+    height: 360px;
+    width: 1440px;
+    position: relative;
+}
+.new-sletter img{
+    height: 360px;
+    width: 1440px;
+}
+.content3{
+    height: 160px;
+    width: 540px;
+    position: absolute;
+    top: 101px;
+    left: 450px;
+    border-bottom: 2px solid #6C7275;
+}
+.content3 p{
+    font-size: 45px;
+    font-weight: 500;
+    color: black;
+    text-align: center; 
+}
+.content3 h3{
+    font-size: 21px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+.form-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16rem;
+    padding-top: 1.5rem;
+}
+.fa-envelope{
+    color: black;
+    padding-top: .4rem;
+}
+.form-input p{
+    font-size: 19px;
+    text-align: center;
+    display: flex;
+    gap: 4px;
+}
+.form-input input{
+    font-size: 16px;
+    border: none;
+    background-color: #F2F4F6  ;
+    padding: 2px 6px;
+    outline: none;
+}
+.form-input a{
+    color: #6C7275;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+/* new-sletter ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero section ends here */

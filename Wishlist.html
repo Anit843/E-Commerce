@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wishlist Page</title>
+
+  <!-- custom css link -->
+   <link rel="stylesheet" href="style.css">
+
+   <!-- custom css link -->
+    <link rel="stylesheet" href="Address.css">
+
+    <!-- custom css link -->
+     <link rel="stylesheet" href="profile.css">
+
+   <!-- custom fontawesome link -->
+   <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+ />
+</head>
+
+<style>
+
+.whishlist-section{
+    height: 582px;
+    width: 851px;
+    padding: 0px 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.whishlist-section h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.whishlist-content{
+    height: 510px;
+    width: 707px;
+}
+.wishlist-caption{
+  border-bottom: 1px solid #E8ECEF;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 32px;
+}
+.wishlist-caption p{
+  color: #6C7275;
+  font-size: 14px;
+  font-weight: 400;
+}
+.caption-1{
+  width: 160px;
+}
+.caption-2{
+  width: 120px;
+}
+.caption-3{
+  width: 137px;
+}
+.items-caption{
+  border-bottom: 1px solid #E8ECEF;
+  padding: 24px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-cell{
+  height: 72px;
+  width: 193px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.product-cell .fa-xmark{
+  color: #6C7275;
+  font-size: 24px;
+}
+.content{
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+.content img{
+  height: 72px;
+  width: 60px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.info p{
+  font-size: 14px;
+  font-weight: 600;
+}
+.info span{
+  font-size: 12px;
+  font-weight: 400;
+  color: #6C7275;
+}
+.items-caption > p{
+  font-size: 14px;
+  font-weight: 400;
+}
+.items-caption button{
+  padding: 6px 24px;
+  border-radius: 8px;
+  font-size: 16;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+}
+
+
+</style>
+<body>
+    <!-- header section start here -->
+    <header>
+      <div class="logo-container">
+        <i class="fa-solid fa-bars"></i>
+        <a href="#" class="logo">3legant.</a>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="Product.html" >Products</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="icons">
+        <img src="./images/search 02.png" alt="" />
+        <a href="Profile.html"><img src="./images/Vector.png" alt="" /></a>
+
+        <div class="cart-container">
+         <a href="ShoppingCart.html"> <img src="./images/shopping bag.png" alt="" /></a>
+          <div class="cart-item-container">2</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- content-container start here -->
+    <div class="content-container">
+      <div class="account"><p>My Account</p></div>
+      <div class="account-section">
+          <div class="menu">
+              <div class="frame">
+                  <img src="./images/Avatar Edit.png" alt="">
+                  <p>Sofia Havertz</p>
+              </div>
+              <div class="frame-title">
+                <a href="Profile.html">Account</a>
+                <a href="Address.html">Address</a>
+                <a href="Orders.html">Orders</a>
+                  <a href="Wishlist.html" class="active">Wishlist</a>
+                  <a href="sign-in.html">Log Out</a>
+              </div>
+          </div>
+
+     
+          <!-- whishlist section start here -->
+           <section class="whishlist-section">
+        <h2>Your Wishlist</h2>
+        <div class="whishlist-content">
+
+        <div class="wishlist-caption">
+          <p class="caption-1">Product</p>
+            <p class="caption-2">Price</p>
+            <p class="caption-3">Action</p>
+        </div>
+
+        <div class="items-caption">
+        <div class="product-cell">
+          <i class="fa-solid fa-xmark"></i>
+          <div class="content">
+            <img src="./images/Image Placeholder.png" alt="">
+            <div class="info">
+              <p>Tray Table</p>
+              <span>Color : Black</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="caption-2">$19.19</p>
+
+        <button class="caption-3">Add to cart</button>
+        </div>
+
+        <div class="items-caption">
+        <div class="product-cell">
+          <i class="fa-solid fa-xmark"></i>
+          <div class="content">
+            <img src="./images/Image Place 2.png" alt="">
+            <div class="info">
+              <p>Sofa</p>
+              <span>Color : Beige</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="caption-2">$345</p>
+
+        <button class="caption-3">Add to cart</button>
+        </div>
+
+        <div class="items-caption">
+        <div class="product-cell">
+          <i class="fa-solid fa-xmark"></i>
+          <div class="content">
+            <img src="./images/Image Place 1.png" alt="">
+            <div class="info">
+              <p>Tray Table</p>
+              <span>Color : Beige</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="caption-2">$8.80</p>
+
+        <button class="caption-3">Add to cart</button>
+        </div>
+
+        <div class="items-caption">
+        <div class="product-cell">
+          <i class="fa-solid fa-xmark"></i>
+          <div class="content">
+            <img src="./images/Image Place.png" alt="">
+            <div class="info">
+              <p>Tray Table</p>
+              <span>Color : Beige</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="caption-2">$8.80</p>
+
+        <button class="caption-3">Add to cart</button>
+        </div>
+
+        </div>
+           </section>
+           <!-- wishlist section ends here -->
+          
+        
+      </div>
+      </div>
+
+    <!-- header section ends here -->
+      
+
+                        <!--footer start here   -->
+                        <footer>
+                          <div class="footer-top-container">
+                            <div class="logo-container">
+                              <a href="#">3legant. </a>
+                              <div class="pipe"></div>
+                              <p>Gift & Decoration Store</p>
+                            </div>
+                    
+                            <ul class="footer-links">
+                              <li> <a href="index.html">Home</a></li>
+                              <li> <a href="shop.html">Shop</a></li>
+                              <li> <a href="Product.html">Product</a></li>
+                              <li> <a href="Blog.html">Blogs</a></li>
+                              <li> <a href="Contact.html">Contact Us</a></li>
+                            </ul>
+                          </div>
+                          <div class="footer-bottom-container">
+                            <div class="copyright">
+                    <p>
+                      Copyright © 2023 3legant. All rights reserved
+                    </p>
+                    <div class="terms-container">
+                      <a href="#">Privacy Policy</a>
+                      <a href="#">Terms of Use</a>
+                    </div>
+                    
+                            </div>
+                            <div class="social-icons">
+                              <img src="../images/instagram.png" alt="">
+                              <img src="../images/facebook.png" alt="">
+                              <img src="../images/youtube.png" alt="">
+                    
+                            </div>
+                          </div>
+                        </footer>
+                    
+                        <!--footer ends here   -->
+            
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+
+    <!-- custom css link -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- custom css link -->
+      <link rel="stylesheet" href="ShoppingCart.css">
+
+    <!-- font awesome cdn link -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  />
+</head>
+<body>
+      
+          <!-- header section start here -->
+          <header>
+            <div class="logo-container">
+              <i class="fa-solid fa-bars"></i>
+              <a href="#" class="logo">3legant.</a>
+            </div>
+      
+            <nav>
+              <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+              </ul>
+            </nav>
+      
+            <div class="icons">
+              <img src="./images/search 02.png" alt="" />
+              <a href="Profile.html"><img src="./images/Vector.png" alt="" /></a>
+
+              <div class="cart-container">
+                <img src="./images/shopping bag.png" alt="" />
+                <div class="cart-item-container">2</div>
+              </div>
+            </div>
+          </header>
+          <!-- header section ends here -->
+        
+
+          <!-- hero section start here -->
+
+          <div class="cart-page">
+
+            <div class="cart-items">
+             <h2>Cart</h2>
+
+             <div id="process">
+            <a href="ShoppingCart.html" class="active">
+                <p>1</p>
+                <span>Shopping cart</span>
+                </a>
+
+             <a href="CheckOut.html">
+                <p>2</p>
+                <span>Checkout details</span>
+            </a>
+
+            <a href="OrderComplete.html" >
+                <p>3</p>
+                <span>Order complete</span>
+            </a>
+             </div>
+            </div>
+
+            <div class="cart-items2">
+              <div class="Cart">
+                <div class="cart1">
+
+                  <div class="table-header">
+                    <p>Product</p>
+                    <div class="Title">
+                      <p>Quantity</p>
+                      <p>Price</p>
+                      <p>Subtotal</p>
+                    </div>
+                  </div>
+                    <div class="Elements-cart">
+                      <div class="cartitem-image">
+                        <img src="./images/Image Placeholder.png" alt="">
+                        <div class="info-content">
+                          <p>Tray Table</p>
+                          <a href="">Color : Black</a>
+                          <span><i class="fa-solid fa-xmark"></i> Remove</span>
+                        </div>
+                      </div>
+                      <div class="info-item">
+                        <div class="quant">
+                          <i style="cursor: pointer;" onclick="decreaseCounter()" class="fa-solid fa-minus"></i>
+                          <p class="count">2</p>
+                          <i style="cursor: pointer;" onclick="increaseCounter()" class="fa-solid fa-plus"></i>
+                        </div>
+                        <p>$19.00</p>
+                        <span>$38.00</span>
+                      </div>
+                    </div>
+
+                    <div class="Elements-cart">
+                      <div class="cartitem-image">
+                        <img src="./images/Image Placeholder end.jpg" alt="">
+                        <div class="info-content">
+                          <p>Tray Table</p>
+                          <a href="">Color : Red</a>
+                          <span><i class="fa-solid fa-xmark"></i> Remove</span>
+                        </div>
+                      </div>
+                      <div class="info-item">
+                        <div class="quant">
+                          <i style="cursor: pointer;" onclick="decreaseCounter2()" class="fa-solid fa-minus"></i>
+                          <p class="count2">2</p>
+                          <i style="cursor: pointer;" onclick="increaseCounter2()" class="fa-solid fa-plus"></i>
+                        </div>
+                        <p>$19.00</p>
+                        <span>$38.00</span>
+                      </div>
+                    </div>
+
+                    <div class="Elements-cart">
+                      <div class="cartitem-image">
+                        <img src="./images/Image Placeholder end 1.png" alt="">
+                        <div class="info-content">
+                          <p>Tray Table</p>
+                          <a href="">Color : Gold</a>
+                          <span><i class="fa-solid fa-xmark"></i> Remove</span>
+                        </div>
+                      </div>
+                      <div class="info-item">
+                        <div class="quant">
+                          <i style="cursor: pointer;" onclick="decreaseCounter3()" class="fa-solid fa-minus"></i>
+                          <p class="count3">2</p>
+                          <i style="cursor: pointer;" onclick="increaseCounter3()" class="fa-solid fa-plus"></i>
+                        </div>
+                        <p>$39.00</p>
+                        <span>$39.00</span>
+                      </div>
+                    </div>
+                 
+                </div>
+                <div class="cart-summary">
+                  <div class="cart-summary1">
+                  <h2>Cart Summary</h2>
+                  <div class="summary-content">
+
+                    <div class="Shipping-option">
+
+                      <div class="elements">
+                        <div class="radio-button">
+                        <input type="radio" name="0" value="Free Shipping">Free Shipping
+                      </div>
+                      <p>$0.00</p>
+                      </div>
+
+                      
+                      <div class="elements">
+                        <div class="radio-button">
+                        <input type="radio" name="0" value="Express Shipping">Express Shipping
+                      
+                      </div>
+                      <p>+$15.00</p>
+                      </div>
+
+                      
+                      <div class="elements">
+                        <div class="radio-button">
+                        <input type="radio" name="0" value="Pick Up">Pick Up
+                      </div>
+                      <p>%21.00</p>
+                      </div>
+
+                    </div>
+
+                    <div class="order-summary">
+                      <p>Subtotal</p>
+                      <span>$1234.00</span>
+                    </div>
+                  
+                    <div class="order-total">
+                      <p>Total</p>
+                      <p>$1345.00</p>
+                    </div>
+
+
+                  </div>
+                </div>
+                  <button>Checkout</button>
+                </div>
+              </div>
+
+              <div class="coupon-form">
+                <div class="coupon-title">
+                  <h2>Have a coupon?</h2>
+                  <p>Add your code for an instant cart discount</p>
+                </div>
+                <div class="coupon-code">
+                  <div class="icon-input">
+                    <img src="./images/ticket-percent (2).png" alt="">
+                   <input type="text" placeholder="Coupon-Code">
+                  </div>
+                  <span>Apply</span>
+                </div>
+              </div>
+
+
+            </div>
+
+            
+
+          </div>
+
+
+
+          <!--footer start here   -->
+    <footer>
+        <div class="footer-top-container">
+          <div class="logo-container">
+            <a href="#">3legant. </a>
+            <div class="pipe"></div>
+            <p>Gift & Decoration Store</p>
+          </div>
+  
+          <ul class="footer-links">
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="shop.html">Shop</a></li>
+            <li> <a href="Product.html">Product</a></li>
+            <li> <a href="Blog.html">Blogs</a></li>
+            <li> <a href="Contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom-container">
+          <div class="copyright">
+  <p>
+    Copyright © 2023 3legant. All rights reserved
+  </p>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms of Use</a>
+          </div>
+          <div class="social-icons">
+            <img src="./images/instagram.png" alt="">
+            <img src="./images/facebook.png" alt="">
+            <img src="./images/youtube.png" alt="">
+  
+          </div>
+        </div>
+      </footer>
+      <!--footer ends here   -->
+      <script src="script.js"></script>
+</body>
+</html>

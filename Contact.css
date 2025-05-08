@@ -1,0 +1,232 @@
+/* hero section start here */
+.Contact-content{
+    height: 1629px;
+    width: 1440px;
+    margin: auto;
+    padding: 0px 160px;
+    padding-top: 16px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.Header-content{
+    height: 340px;
+    width: 1121px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.link-group{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.link-group p{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #605F5F;
+}
+.link-group span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.header h2{
+    font-size: 54px;
+    font-weight: 500; 
+    width: 850px;
+    line-height: 58px;
+}
+.header p{
+    font-weight: 400;
+    width: 850px;
+    color: #141718;
+}
+.Feature-section{
+    height: 413px;
+    width: 1119px;
+    display: flex;
+    align-items: center;
+}
+.Feature-section img{
+    width: 560px;
+    height: 411px;
+}
+.content{
+    height: 411px;
+    width: 559px;
+    background-color: #F3F5F7;
+    position: relative;
+
+}
+.content-title{
+    height: 164px;
+    width: 452px;
+    position: absolute;
+    left: 72px;
+    top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.content-title h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.content-title a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-bottom: 2px solid black;
+    width: 100px;
+    padding-bottom: 3px;
+}
+.Contact-section{
+    height: 684px;
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Contact-section h1{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.Address-info{
+    display: flex;
+    gap: 24px;
+}
+.address{
+    height: 156px;
+    width: 357.67px;
+   padding: 16px 32px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 16px;
+   background-color: #F3F5F7;
+}
+.address img{
+    width: 32px;
+    height: 32px;
+    text-align: center;
+}
+.address-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+.address-content h2{
+    font-size: 16px;
+    color: #6C7275;
+    font-weight: 700;
+}
+.address-content p{
+    font-weight: 600;
+    width: 270px;
+}
+.get-touch{
+    height: 404px;
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    height: 404px;
+    width: 544px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.map{
+    height: 404px;
+    width: 548px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+label{
+    font-size: 12px;
+    font-weight: 700;
+    color: #6C7275;
+}
+input{
+    padding: 9px 16px;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid #CBCBCB;
+    outline: none;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.message input{
+    padding: 16px;
+    height: 140px;
+}
+.form button{
+    height: 40px;
+    width: 189px;
+    padding: 6px 40px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+iframe{
+    height: 401px;
+    width: 547px;
+}
+.values{
+    height: 252px;
+    width: 1440px;
+    margin: auto;
+    background-color: #F3F5F7;
+
+}
+.values {
+    max-width: 1440px;
+    margin: auto;
+    padding: 48px 160px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .values .contact-card {
+    width: 266px;
+    height: 220px;
+    background-color: #f3f5f7;
+    padding: 48px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .values .contact-card img {
+    width: 48px;
+  }
+
+
+  
+/* hero section end here */

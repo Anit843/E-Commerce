@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckOut Details</title>
+    
+    <!-- custom css link -->
+     <link rel="stylesheet" href="CheckOut.css">
+
+     <!-- custom css link -->
+      <link rel="stylesheet" href="ShoppingCart.css">
+
+      <link rel="stylesheet" href="style.css">
+
+      <!-- custom fontawesome link -->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+</head>
+<body>
+     <!-- header section start here -->
+     <header>
+        <div class="logo-container">
+          <i class="fa-solid fa-bars"></i>
+          <a href="#" class="logo">3legant.</a>
+        </div>
+  
+        <nav>
+          <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="Product.html">Products</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+  
+        <div class="icons">
+          <img src="./images/search 02.png" alt="" />
+          <a href="Profile.html"><img src="./images/Vector.png" alt="" /></a>
+
+          <div class="cart-container">
+            <img src="./images/shopping bag.png" alt="" />
+            <div class="cart-item-container">2</div>
+          </div>
+        </div>
+      </header>
+      <!-- header section ends here -->
+
+
+     <!-- hero section start here -->
+
+     <div class="cart-page2">
+        
+        <div class="cart-items">
+            <h2>Cart</h2>
+
+            <div id="process">
+
+           <a style="border-bottom: 2px solid #38CB89; padding: 1.5rem;" href="ShoppingCart.html">
+               <p style="background-color: #38CB89;"><i class="fa-solid fa-check"></i></p>
+               <span style="color: #38CB89;">Shopping cart</span>
+               </a>
+
+            <a href="CheckOut.html" class="active">
+               <p>2</p>
+               <span>Checkout details</span>
+           </a>
+
+           <a href="OrderComplete.html" >
+               <p>3</p>
+               <span>Order complete</span>
+           </a>
+            </div>
+           </div>
+
+           <div class="Cart-checkout">
+
+        <div class="checkout-form">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="name-info">
+                <div class="first-name">
+                <label for="first name">FIRST NAME</label>
+                <input type="text" placeholder="First name">
+            </div>
+                <div class="first-name">
+                <label for="last name">LAST NAME</label>
+                <input type="text" placeholder="Last name">
+            </div>
+            </div>
+
+         <div class="phone">
+            <label for="phone-number">PHONE NUMBER</label>
+            <input type="number" placeholder="Phone number">
+         </div>
+
+         <div class="email">
+            <label for="email">Email Address</label>
+            <input type="email" placeholder="Your Email">
+         </div>
+        </div>
+
+        <div class="shipping-address">
+            <h2>Shipping Address</h2>
+
+            <div class="address">
+                <label for="street-address">STREET ADDRESS*</label>
+                <input type="address" placeholder="Street Address">
+            </div>
+
+            <div class="address">
+                <label for="country">COUNTRY*</label>
+                <input type="country" placeholder="Country">
+            </div>
+
+            <div class="address">
+                <label for="city">TOWN/CITY*</label>
+                <input type="city" placeholder="Town / City">
+            </div>
+
+            <div class="state-code">
+                <div class="state">
+                    <label for="state">STATE*</label>
+                    <input type="state" placeholder="State">
+                </div>
+                <div class="state">
+                    <label for="code">ZIP CODE*</label>
+                    <input type="number" placeholder="Zip Code">
+                </div>
+            </div>
+
+            <div class="different-address">
+                <input type="checkbox">
+                <p>Use a different billing address (optional)</p>
+            </div>
+
+        </div>
+
+        <div class="payment-method">
+          <h2>Payment method</h2>
+
+          <div class="card-method">
+            <div class="card">
+            <input type="radio" name="0">
+           <p>Pay by Card Credit</p>
+          </div>
+          <i class="fa-solid fa-credit-card"></i>
+          </div>
+          <div class="Paypal">
+            <input type="radio" name="0">
+            <p>Paypal</p>
+          </div>
+
+          <div class="border-bottom"></div>
+
+          <div class="card-no">
+            <label for="card number">CARD NUMBER</label>
+            <input type="number" placeholder="1234 1234 1234">
+          </div>
+
+          <div class="expiration">
+            
+            <div class="expiration-date">
+              <label for="expiration date">EXPIRATION DATE</label>
+              <input type="number" placeholder="MM/YY">
+            </div>
+
+            <div class="cvc">
+              <label for="cvc">CVC</label>
+              <input type="number" placeholder="CVC Code">
+            </div>
+
+          </div>
+          
+        </div>
+
+        <button>Place Order</button>
+
+
+        </div>
+
+        <div class="checkout-elements">
+          <h2>Order Summary</h2>
+
+          <div class="product-coupons">
+
+         <div class="product-cell">
+
+          <div class="content">
+            <img src="./images/Image Placeholder.png" alt="">
+            <div class="content2">
+              <p>Tray Table</p>
+              <a href="">Color : Black</a>
+              <div class="quant">
+                <i style="cursor: pointer;" onclick="decreaseCounter()" class="fa-solid fa-minus"></i>
+                <p class="count">2</p>
+                <i style="cursor: pointer;" onclick="increaseCounter()" class="fa-solid fa-plus"></i>
+              </div>
+          </div>
+
+          </div>
+
+          <h2>$38.00</h2>
+        </div>
+
+         <div class="product-cell">
+
+          <div class="content">
+            <img src="./images/Image Placeholder end.jpg" alt="">
+            <div class="content2">
+              <p>Tray Table</p>
+              <a href="">Color : Red</a>
+              <div class="quant">
+                <i style="cursor: pointer;" onclick="decreaseCounter2()" class="fa-solid fa-minus"></i>
+                <p class="count2">2</p>
+                <i style="cursor: pointer;" onclick="increaseCounter2()" class="fa-solid fa-plus"></i>
+              </div>
+          </div>
+
+          </div>
+
+          <h2>$38.00</h2>
+        </div>
+
+         <div class="product-cell">
+
+          <div class="content">
+            <img src="./images/Image Placeholder end 1.png" alt="">
+            <div class="content2">
+              <p>Tray Table</p>
+              <a href="">Color : Gold</a>
+              <div class="quant">
+                <i style="cursor: pointer;" onclick="decreaseCounter3()" class="fa-solid fa-minus"></i>
+                <p class="count3">2</p>
+                <i style="cursor: pointer;" onclick="increaseCounter3()" class="fa-solid fa-plus"></i>
+              </div>
+          </div>
+
+          </div>
+
+          <h2>$39.00</h2>
+        </div>
+         
+        <div class="coupon-field">
+          <input type="text" placeholder="Input">
+          <button>Apply</button>
+        </div>
+        
+          </div>
+
+
+          <div class="fields">
+
+          <div class="elements-fields">
+            <div class="title-field">
+              <img src="./images/ticket-percent.png" alt="">
+              <p>JenkateMW</p>+
+            </div>
+            <span>-$25.00 [Remove]</span>
+          </div>
+  
+          <div class="elements-fields1">
+            <p>Shipping</p>
+            <span>Free</span>
+          </div>
+
+          <div class="elements-fields1">
+            <p>Subtotal</p>
+            <span>$99.00</span>
+          </div>
+          <div class="elements-fields2">
+            <p>Total</p>
+            <span>$234.00</span>
+          </div>
+
+        </div>
+
+        </div>
+
+           </div>
+
+
+     </div>
+
+
+
+
+
+
+
+      <!-- hero section ends here -->
+
+
+
+
+
+
+              <!--footer start here   -->
+    <footer>
+        <div class="footer-top-container">
+          <div class="logo-container">
+            <a href="#">3legant. </a>
+            <div class="pipe"></div>
+            <p>Gift & Decoration Store</p>
+          </div>
+  
+          <ul class="footer-links">
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="shop.html">Shop</a></li>
+            <li> <a href="Product.html">Product</a></li>
+            <li> <a href="Blog.html">Blogs</a></li>
+            <li> <a href="Contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom-container">
+          <div class="copyright">
+  <p>
+    Copyright © 2023 3legant. All rights reserved
+  </p>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms of Use</a>
+          </div>
+          <div class="social-icons">
+            <img src="./images/instagram.png" alt="">
+            <img src="./images/facebook.png" alt="">
+            <img src="./images/youtube.png" alt="">
+  
+          </div>
+        </div>
+      </footer>
+      <!--footer ends here   -->
+      <script src="script.js"></script>
+</body>
+</html>
